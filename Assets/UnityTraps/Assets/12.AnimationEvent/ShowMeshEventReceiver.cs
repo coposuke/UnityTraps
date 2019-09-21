@@ -11,7 +11,7 @@ public class ShowMeshEventReceiver : MonoBehaviour
 	/// 切り替えるメッシュたち
 	/// </summary>
 	[SerializeField]
-	private MeshRenderer[] meshRenderes;
+	private MeshRenderer[] meshRenderes = null;
 
 	/// <summary>
 	/// Animation Event Callback

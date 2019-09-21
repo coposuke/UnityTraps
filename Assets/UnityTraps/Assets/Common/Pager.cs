@@ -31,25 +31,25 @@ public class Pager : MonoBehaviour
 	/// 次へボタン
 	/// </summary>
 	[SerializeField]
-	private UnityEngine.UI.Button nextButton;
+	private UnityEngine.UI.Button nextButton = null;
 
 	/// <summary>
 	/// 前へボタン
 	/// </summary>
 	[SerializeField]
-	private UnityEngine.UI.Button prevButton;
+	private UnityEngine.UI.Button prevButton = null;
 
 	/// <summary>
 	/// ページとして動かすオブジェクト
 	/// </summary>
 	[SerializeField]
-	private PageTransform[] pageTransforms;
+	private PageTransform[] pageTransforms = null;
 
 	/// <summary>
 	/// ページとしての座標
 	/// </summary>
 	[SerializeField]
-	private PagePosition[] pagePositions;
+	private PagePosition[] pagePositions = null;
 
 	/// <summary>
 	/// ページ番号

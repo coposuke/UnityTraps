@@ -35,7 +35,7 @@ public class AnimatorStarter : MonoBehaviour
 	/// 設定値
 	/// </summary>
 	[SerializeField]
-	private KeyPairValue[] values;
+	private KeyPairValue[] values = null;
 
 
 	/// <summary>
